@@ -1,11 +1,6 @@
 import React from 'react';
+import NFTCardDraw from './NFTCardDraw';
 
-const App = () => {
-   return (
-      <div>
-         
-      </div>
-   );
-};
+const App = () => <NFTCardDraw />;
 
 export default App;

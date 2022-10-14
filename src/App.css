@@ -1,3 +1,59 @@
-.App {
-  text-align: center;
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.card-section {
+   width: 100%;
+   max-width: 1440px;
+   height: 950px;
+   margin: 0 auto;
+   border: 1px solid blue;
+   padding: 60px 40px;
+   background: linear-gradient(
+      180deg,
+      rgba(29, 29, 29, 0.9) 0%,
+      rgba(97, 97, 97, 0.594) 100%
+   );
+   border-radius: 30px;
+   border: solid #ffb800 1px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1399px) {
+   .card-section {
+      zoom: 0.83;
+   }
+}
+
+@media screen and (max-width: 1199px) {
+   .card-section {
+      zoom: 0.7;
+   }
+}
+
+@media screen and (max-width: 1023px) {
+   .card-section {
+      zoom: 0.5;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .card-section {
+      zoom: 0.35;
+   }
+}
+@media screen and (max-width: 479px) {
+   .card-section {
+      zoom: 0.3;
+   }
+}
+@media screen and (max-width: 375px) {
+   .card-section {
+      zoom: 0.25;
+   }
 }
