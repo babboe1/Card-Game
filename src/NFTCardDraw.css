@@ -1,0 +1,62 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.NFTDrawSection {
+   background: url(./assets/images/bg-image.webp);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 990px;
+   width: 100%;
+   zoom: 0.9;
+   position: relative;
+}
+
+.card-section {
+   width: 100%;
+   max-width: 1440px;
+   height: 950px;
+   margin: 0 auto;
+   padding: 60px 40px;
+   border-radius: 30px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, 5%);
+}
+
+@media screen and (max-width: 1399px) {
+   .NFTDrawSection {
+      zoom: 0.83;
+   }
+}
+
+@media screen and (max-width: 1199px) {
+   .NFTDrawSection {
+      zoom: 0.7;
+   }
+}
+
+@media screen and (max-width: 1023px) {
+   .NFTDrawSection {
+      zoom: 0.5;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .NFTDrawSection {
+      zoom: 0.35;
+   }
+}
+@media screen and (max-width: 479px) {
+   .NFTDrawSection {
+      zoom: 0.3;
+   }
+}
+@media screen and (max-width: 375px) {
+   .NFTDrawSection {
+      zoom: 0.25;
+   }
+}
