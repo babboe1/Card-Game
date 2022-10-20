@@ -1,0 +1,23 @@
+.out-deck__content {
+   width: 100%;
+   height: 50vh;
+   position: relative;
+   top: 0%;
+   left: 0%;
+   display: block;
+   z-index: -100;
+}
+
+.animateDeck {
+   animation: deck-left 1s ease forwards;
+}
+
+@keyframes deck-left {
+   0% {
+      left: 0px;
+   }
+
+   100% {
+      left: 50%;
+   }
+}
