@@ -1,0 +1,23 @@
+.nftContainer .counter {
+   display: flex;
+   padding: 2px 5px;
+   position: absolute;
+}
+.nftContainer .counter .times {
+   color: red;
+   cursor: pointer;
+   padding-right: 5px;
+}
+.nftContainer .counter .countdown {
+   padding: 1px 5px;
+   border: solid #0a0a45 3px;
+   background-color: rgb(72, 174, 72);
+   border-radius: 10px;
+}
+.nftContainer .nftTexts {
+   background: #1c1c48;
+   color: white;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+}
